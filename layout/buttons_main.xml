@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author Ning Shi -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/trackButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#3BA582"
+        android:text="@string/track_activity"
+        android:textColor="#F1ECEC" />
+
+    <Button
+        android:id="@+id/pathAutoButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#3BA582"
+        android:text="@string/path_auto_activity"
+        android:textColor="#F1ECEC" />
+
+    <Button
+        android:id="@+id/connectionButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#3BA582"
+        android:text="@string/connection_activity"
+        android:textColor="#F1ECEC" />
+
+    <Button
+        android:id="@+id/statisticsButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#3BA582"
+        android:text="@string/statistics_activity"
+        android:textColor="#F1ECEC" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#3BA582"
+        android:text="@string/settings_activity"
+        android:textColor="#F1ECEC" />
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author Ning Shi, Jennifer Viney -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/map_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/bar_main" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <org.osmdroid.views.MapView
+                android:id="@+id/map_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/file_button"
+                android:src="@drawable/filebuttonround"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/file_button"
+                android:visibility="invisible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/center_button"
+                android:src="@drawable/positionbutton"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/centre"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentEnd="true"
+                tools:ignore="ContentDescription,RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/information1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:textColor="#000000"
+                android:background="#4DFFFFFF"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/information2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:textColor="#000000"
+                android:background="#4DFFFFFF"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- BottomSheet -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:visibility="invisible"
+        android:background="@color/cardview_light_background"
+        app:layout_behavior=
+            "com.google.android.material.bottomsheet.BottomSheetBehavior"
+        tools:ignore="PrivateResource">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/file"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginRight="@dimen/text_margin" />
+
+            <Button
+                android:id="@+id/load_button"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#3BA582"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/load_button"
+                android:textColor="#F1ECEC" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
