@@ -46,4 +46,12 @@ L’application propose également d'autres fonctionnalités :
 - L'accès aux paramètres liés à l'enregistrement d'un parcours.
 
 - L'aide (ce fichier).
+
+
+
+II- Navigation de l’application
+
+Le menu principal contient les boutons vers les trois (3) modes, ainsi que les boutons pour voir les statistiques et le paramètres.
+Pour naviguer vers le reste des fonctionnalités de l'application, il suffit de cliquer sur le bouton avec trois (3) barres horizontales situé en haut à gauche de l’écran, pour afficher le menu complet.
+
 				
