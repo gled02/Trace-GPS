@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author Jennifer Viney, William Li -->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/menu_divider1">
+
+        <item
+            android:id="@+id/map"
+            android:title="@string/menu_map"
+            android:icon="@drawable/ic_maps_map" />
+
+        <item
+            android:id="@+id/suivi_trace"
+            android:title="@string/menu_suivi_trace"
+            android:icon="@drawable/ic_marker" />
+
+        <item
+            android:id="@+id/parcours_auto"
+            android:title="@string/menu_path_auto"
+            android:icon="@drawable/ic_path2" />
+
+        <item
+            android:id="@+id/connection"
+            android:title="@string/menu_connect"
+            android:icon="@drawable/ic_path" />
+
+    </group>
+
+    <group android:id="@+id/menu_divider2">
+
+        <item
+            android:id="@+id/download"
+            android:title="@string/download_activity"
+            android:icon="@drawable/ic_download" />
+
+        <item
+            android:id="@+id/statistics"
+            android:title="@string/statistics_activity"
+            android:icon="@drawable/ic_editor_insert_chart" />
+
+        <item
+            android:id="@+id/lost"
+            android:title="@string/menu_lost"
+            android:icon="@drawable/ic_communication_message" />
+
+    </group>
+
+    <group android:id="@+id/menu_divider3">
+
+        <item
+            android:id="@+id/settings"
+            android:title="@string/menu_settings"
+            android:icon="@drawable/ic_action_settings" />
+
+        <item
+            android:id="@+id/help"
+            android:title="@string/menu_help"
+            android:icon="@drawable/ic_action_help" />
+
+    </group>
+
+</menu>
