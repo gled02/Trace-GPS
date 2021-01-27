@@ -1,0 +1,38 @@
+<!-- @author Gledis Shkurti -->
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="language">
+        <item>@string/fr_option</item>
+        <item>@string/en_option</item>
+        <item>@string/it_option</item>
+        <item>@string/ch_option</item>
+    </string-array>
+    <string-array name="fileExtention">
+        <item>@string/xml</item>
+        <item>@string/csv</item>
+        <item>@string/json</item>
+    </string-array>
+    <string-array name="speed">
+        <item>@string/ms</item>
+        <item>@string/kh</item>
+    </string-array>
+    <string-array name="distance">
+        <item>@string/m</item>
+        <item>@string/km</item>
+    </string-array>
+    <string-array name="time">
+        <item>@string/milisec</item>
+        <item>@string/sec</item>
+        <item>@string/min</item>
+        <item>@string/hour</item>
+        <item>@string/days</item>
+        <item>@string/weeks</item>
+        <item>@string/years</item>
+        <item>@string/months</item>
+    </string-array>
+    <string-array name="formatMarkers">
+        <item>@string/deg</item>
+        <item>@string/degmin</item>
+        <item>@string/degminsec</item>
+    </string-array>
+</resources>

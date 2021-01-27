@@ -1,0 +1,193 @@
+<!-- @author Ning Shi -->
+
+<resources>
+    <!-- App name -->
+    <string name="app_name">GPS定位追踪</string>
+
+    <string name="description_logo">Logo</string>
+
+    <!-- Activity names -->
+    <string name="connection_activity">连接模式</string>
+    <string name="download_activity">下载</string>
+    <string name="help_activity">帮助</string>
+    <string name="statistics_activity">统计</string>
+    <string name="lost_activity">迷路了？</string>
+    <string name="map_activity">地图</string>
+    <string name="path_auto_activity">自主路线</string>
+    <string name="settings_activity">设置</string>
+    <string name="track_activity">跟踪定位</string>
+
+    <!-- Drawer menu -->
+    <string name="menu_map">地图</string>
+    <string name="menu_suivi_trace">跟踪定位</string>
+    <string name="menu_path_auto">自主路线</string>
+    <string name="menu_connect">连接模式</string>
+    <string name="menu_statistics">统计</string>
+    <string name="menu_lost">迷路了？</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_help">帮助</string>
+
+    <!-- Settings layout -->
+    <string name="navigation_drawer_open">打开侧滑菜单</string>
+    <string name="navigation_drawer_close">关闭侧滑菜单</string>
+    <string name="nav_header_title">跟踪定位</string>
+    <string name="nav_header_subtitle">第一步</string>
+    <string name="nav_header_desc">导航栏设置对象</string>
+    <string name="action_settings">设置</string>
+    <string name="json">Json</string>
+    <string name="xml">Xml</string>
+    <string name="csv">Csv</string>
+    <string name="text_radio1">选择文件格式</string>
+    <string name="ms">m / s</string>
+    <string name="kh">km / h</string>
+    <string name="m">m</string>
+    <string name="km">km</string>
+    <string name="text_radio2">选择速度单位</string>
+    <string name="text_radio4">选择距离单位</string>
+    <string name="text_radio3">选择时间单位</string>
+    <string name="milisec">milisec</string>
+    <string name="sec">秒</string>
+    <string name="min">分</string>
+    <string name="hour">时</string>
+    <string name="days">天</string>
+    <string name="weeks">周</string>
+    <string name="months">月</string>
+    <string name="years">年</string>
+    <string name="nbBalises">输入地标个数</string>
+    <string name="path">输入存放文件路径</string>
+    <string name="locationIn">输入两次请求位置的时间间隔</string>
+    <string name="degreeText">选择位置信息的格式</string>
+    <string name="deg">度</string>
+    <string name="degmin">度 分</string>
+    <string name="degminsec">度 分 秒</string>
+    <string name="decimal">十进制</string>
+    <string name="accurancy">输入确认到达地标的距离范围</string>
+    <string name="submit">确定</string>
+    <string name="title">选择语言</string>
+    <string name="accurancy2">选择不同值的精度显示</string>
+    <string name="timeBalises">选择两次记录的间隔时间</string>
+
+    <!-- StdTwoPaths -->
+    <string name="lat">经度</string>
+    <string name="lon">纬度</string>
+    <string name="speed">速度</string>
+    <string name="distance">距离</string>
+    <string name="time">时间</string>
+    <string name="start">开始</string>
+    <string name="delay">时长</string>
+    <string name="next">下一个</string>
+    <string name="direction">方向</string>
+    <string name="no_internet">无网络连接</string>
+    <string name="error_send_position">发送位置时发生错误</string>
+
+    <!-- StdMapModel -->
+    <string name="validated">此地标完成</string>
+
+    <!-- Map layout -->
+    <string name="file_button">文件</string>
+    <string name="centre">中心</string>
+    <string name="load_button">刷新</string>
+    <string name="delete_button">开始新记录</string>
+    <string name="continue_button">继续</string>
+    <string name="new_button">创建</string>
+    <string name="pause_button">暂停记录</string>
+    <string name="resume_button">继续记录</string>
+
+    <!-- Help layout -->
+    <string name="manuel_text">说明</string>
+
+    <!-- MainActivity -->
+    <!-- New/Continue Dialog box -->
+    <string name="dialog_newContinue">创建新的路线还是继续？</string>
+    <string name="dialog_question">继续之前的记录吗？</string>
+    <string name="dialog_continue">继续</string>
+    <string name="dialog_new">创建新的</string>
+    <string name="dialog_cancel">取消</string>
+
+    <!-- Confirm Dialog box -->
+    <string name="confdialog_title">确认</string>
+    <string name="confdialog_message">暂停的记录将会被删除</string>
+    <string name="confdialog_ok">确定</string>
+    <string name="confdialog_cancel">取消</string>
+
+    <!-- Id Dialog box -->
+    <string name="iddialog_title">参与者编号</string>
+    <string name="iddialog_Message">请输入参与者编号</string>
+    <string name="iddialog_ok">确定</string>
+    <string name="iddialog_cancel">取消</string>
+
+    <!-- TrackActivity -->
+    <!-- Back Dialog box-->
+    <string name="dialog_title">暂停或停止?</string>
+    <string name="dialog_message">暂停记录吗?</string>
+    <string name="dialog_pause_button">暂停</string>
+    <string name="dialog_stop_button">停止</string>
+    <string name="dialog_cancel_button">取消</string>
+
+    <!-- Reverse Dialog box-->
+    <string name="rvdialog_title"> 更换路线</string>
+    <string name="rvdialog_message">从起点开始或原路返回?</string>
+    <string name="rvdialog_birdEyeView_button">起点开始</string>
+    <string name="rvdialog_reverse_button">原路返回</string>
+    <string name="rvdialog_cancel_button">取消</string>
+
+    <!-- PathActivity -->
+    <string name="choose_file">选择文件</string>
+    <string name="dialog_no_file">未选择文件</string>
+    <string name="error_send_file">发送文件时发生错误</string>
+    <string name="statdialog_title2">统计</string>
+    <string name="statdialog_exit">返回主菜单</string>
+
+    <!--Toast-->
+    <string name="notGPS">您的导航没有打开，无法找到您的定位</string>
+
+    <!-- Dialog Box Exit -->
+    <string name="exitdialog_title">退出</string>
+    <string name="exitdialog_message">确定退出吗？</string>
+    <string name="exitdialog_yes">是</string>
+    <string name="exitdialog_no">否</string>
+
+    <!-- Dialog Box Finished -->
+    <string name="findialog_title">导航结束</string>
+    <string name="findialog_message">您完成了此次路线</string>
+    <string name="findialog_stats">统计</string>
+    <string name="findialog_back">回到主菜单</string>
+
+    <!-- Statistics Dialog box -->
+    <string name="statdialog_title">上载到服务器吗？</string>
+    <string name="statdialog_validate">是</string>
+    <string name="statdialog_no">否</string>
+
+    <!-- SettingsActivity -->
+    <!-- Language option-->
+    <string name="fr_option">法语</string>
+    <string name="en_option">英语</string>
+    <string name="it_option">意大利语</string>
+    <string name="ch_option">简体中文</string>
+
+    <!-- Toast-->
+    <string name="t_nbBalises">地标数大于等于2</string>
+    <string name="equals0">值大于0</string>
+    <string name="equals02">值大于等于0</string>
+    <string name="equals03">值不等于0</string>
+
+    <!-- StatisticsActivity -->
+    <string name="stat_moy">平均速度: &#160;</string>
+    <string name="stat_max">最高速度: &#160;</string>
+
+    <!-- DownloadActivity -->
+    <string name="bt_start">开始</string>
+    <string name="loading">加载中&#8230;</string>
+    <string name="explain_button"> 按<i>开始</i>可以看服务器上储存的路线</string>
+    <string name="explain_download">选择一个路线下载</string>
+    <string name="download_complete">下载完成</string>
+    <string name="download_error">错误</string>
+    <string name="downloading">下载中</string>
+    <string name="no_paths">没有找到此路径</string>
+
+    <!-- LostActivity -->
+    <string name="sms">我迷路了.</string>
+    <string name="sms2">这是我的位置: </string>
+    <string name="sms_failed">短信发送失败，请稍后再试.</string>
+
+</resources>

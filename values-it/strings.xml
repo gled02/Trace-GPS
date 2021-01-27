@@ -1,0 +1,196 @@
+<!-- @author Gledis Shkurti -->
+
+<resources>
+    <!-- App name -->
+    <string name="app_name">Tracciati GPS</string>
+
+    <string name="description_logo">Logo</string>
+
+    <!-- Activity titles -->
+    <string name="connection_activity">Connessione</string>
+    <string name="download_activity">Scaricamento</string>
+    <string name="help_activity">Aiuto</string>
+    <string name="statistics_activity">Statistiche</string>
+    <string name="lost_activity">Perduto</string>
+    <string name="map_activity">Mappa</string>
+    <string name="path_auto_activity">Percorso Autonome</string>
+    <string name="settings_activity">Impostazioni</string>
+    <string name="track_activity">Seguito dato da tracces</string>
+
+    <!-- Drawer menu -->
+    <string name="menu_map">Mappa</string>
+    <string name="menu_suivi_trace">Seguito dato da tracces</string>
+    <string name="menu_path_auto">Percorso Autonome</string>
+    <string name="menu_connect">Connesso</string>
+    <string name="menu_statistics">Statistiche</string>
+    <string name="menu_lost">Perduto</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="menu_help">Aiuto</string>
+
+    <!-- Settings layout -->
+    <string name="navigation_drawer_open">Aperto cassetto di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi il cassetto di navigazione</string>
+    <string name="nav_header_title">Seguito dato da tracces</string>
+    <string name="nav_header_subtitle">Fase 1</string>
+    <string name="nav_header_desc">Intestazione di navigazione</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="json">Json</string>
+    <string name="xml">Xml</string>
+    <string name="csv">Csv</string>
+    <string name="text_radio1">Seleziona l’estensione del file</string>
+    <string name="ms">m / s</string>
+    <string name="kh">km / h</string>
+    <string name="m">m</string>
+    <string name="km">km</string>
+    <string name="text_radio2">Seleziona l\'unità di velocità</string>
+    <string name="text_radio4">Seleziona l\'unità della distanza</string>
+    <string name="text_radio3">Seleziona l\'unità di tempo</string>
+    <string name="milisec">milisec</string>
+    <string name="sec">sec</string>
+    <string name="min">min</string>
+    <string name="hour">ora</string>
+    <string name="days">giorno</string>
+    <string name="weeks">settimana</string>
+    <string name="months">mese</string>
+    <string name="years">anno</string>
+    <string name="nbBalises">Inserisci il numero dei marcatori</string>
+    <string name="path">Inserisci il percorso della cartella di registrazione</string>
+    <string name="locationIn">Inserisci l\'intervallo di tempo tra 2 richieste di posizione</string>
+    <string name="degreeText">Scegli il formato delle coordinate GPS</string>
+    <string name="deg">deg</string>
+    <string name="degmin">deg min</string>
+    <string name="degminsec">deg min sec</string>
+    <string name="decimal">decimale</string>
+    <string name="accurancy">Inserisci la distanza che consideri aver raggiunto un marcatore</string>
+    <string name="submit">Inviare</string>
+    <string name="title">Scegli la lingua dell\'applicazione</string>
+    <string name="accurancy2">Inserisci l\'accuratezza dei valori di sistema</string>
+    <string name="timeBalises">Inserisci il tempo di registrazione tra 2 marcatori</string>
+
+    <!-- StdTwoPaths -->
+    <string name="lat">Lat: &#160;</string>
+    <string name="lon">Lon: &#160;</string>
+    <string name="speed">Velocità: &#160;</string>
+    <string name="distance">Distanza: &#160;</string>
+    <string name="time">Tempo: &#160;</string>
+    <string name="start">Inizio: &#160;</string>
+    <string name="delay">Ritardo: &#160;</string>
+    <string name="next">Marcatore successivo: &#160;</string>
+    <string name="direction">Direzione: &#160;</string>
+    <string name="no_internet">Nessuna connessione a Internet</string>
+    <string name="error_send_position">C\'è stato un errore durante l\'invio della posizione</string>
+
+
+    <!-- StdMapModel -->
+    <string name="validated">Marcatore convalidato</string>
+
+    <!-- Map layout -->
+    <string name="file_button">File</string>
+    <string name="centre">Centro</string>
+    <string name="load_button">Aggiornare</string>
+    <string name="delete_button">Inizia una nuova registrazione</string>
+    <string name="continue_button">Continuare</string>
+    <string name="new_button">Nouvo</string>
+    <string name="pause_button">Interrompi la registrazione</string>
+    <string name="resume_button">Riprendere la registrazione</string>
+
+    <!-- Help layout -->
+    <string name="manuel_text"> </string>
+
+    <!-- MainActivity -->
+    <!-- New/Continue Dialog box -->
+    <string name="dialog_newContinue">Nuovo o continuare</string>
+    <string name="dialog_question">Continuare la registrazione precedente?</string>
+    <string name="dialog_continue">Continuare</string>
+    <string name="dialog_new">Nuovo</string>
+    <string name="dialog_cancel">Cancellare</string>
+
+    <!-- Confirm Dialog box -->
+    <string name="confdialog_title">Confermare</string>
+    <string name="confdialog_message">La registrazione in pausa sarà cancellata</string>
+    <string name="confdialog_ok">OK</string>
+    <string name="confdialog_cancel">Cancellare</string>
+
+    <!-- Id Dialog box -->
+    <string name="iddialog_title">Numero del concorrente</string>
+    <string name="iddialog_Message">Inserisci il numero del concorrente</string>
+    <string name="iddialog_ok">OK</string>
+    <string name="iddialog_cancel">Cancellare</string>
+
+    <!-- TrackActivity -->
+    <!-- Back Dialog box-->
+    <string name="dialog_title">Pausa o Interrompere</string>
+    <string name="dialog_message">Vuole interrompere la registrazione?</string>
+    <string name="dialog_pause_button">Pausa</string>
+    <string name="dialog_stop_button">Interrompere</string>
+    <string name="dialog_cancel_button">Cancellare</string>
+
+    <!-- Reverse Dialog box-->
+    <string name="rvdialog_title">Cambia percorso</string>
+    <string name="rvdialog_message">Vola d’uccello o un percorso rovesciato?</string>
+    <string name="rvdialog_birdEyeView_button">Vola d\'uccello</string>
+    <string name="rvdialog_reverse_button">Rovesciare</string>
+    <string name="rvdialog_cancel_button">Cancellare</string>
+
+    <!-- PathActivity -->
+    <string name="choose_file">Scegliere un file</string>
+    <string name="dialog_no_file">Nessun file selezionato</string>
+    <string name="error_send_file">C\'è stato un errore durante l\'invio del file</string>
+
+    <!--Toast-->
+    <string name="notGPS">Non avete attività il vostro GPS. Impossibileri recuperare la sua posizione.</string>
+
+    <!-- Dialog Box Exit -->
+    <string name="exitdialog_title">Abbandonare</string>
+    <string name="exitdialog_message">Vuoi abbandonare?</string>
+    <string name="exitdialog_yes">Si</string>
+    <string name="exitdialog_no">No</string>
+
+    <!-- Dialog Box Finished -->
+    <string name="findialog_title">Percorso terminato</string>
+    <string name="findialog_message">Hai finito il percorso.</string>
+    <string name="findialog_stats">Visualizzare le statistiche</string>
+    <string name="findialog_back">Torna al menu</string>
+
+    <!-- Statistics Dialog box -->
+    <string name="statdialog_title">Inviare al server?</string>
+    <string name="statdialog_validate">Si</string>
+    <string name="statdialog_no">No</string>
+    <string name="statdialog_title2">Statistiche</string>
+    <string name="statdialog_exit">Ritorno al menu</string>
+
+    <!-- SettingsActivity -->
+    <!-- Language option-->
+    <string name="fr_option">Francese</string>
+    <string name="en_option">Inglese</string>
+    <string name="it_option">Italiano</string>
+    <string name="ch_option">Cinese</string>
+
+    <!-- Toast-->
+    <string name="t_nbBalises">nb marcatori >= 2</string>
+    <string name="equals0">Valore > 0</string>
+    <string name="equals02">Valore >= 0</string>
+    <string name="equals03">Valore != 0</string>
+
+    <!-- StatisticsActivity -->
+    <string name="stat_moy">Media velocità: &#160;</string>
+    <string name="stat_max">massima velocità: &#160;</string>
+
+    <!-- DownloadActivity -->
+    <string name="bt_start">Iniziare</string>
+    <string name="loading">Caricamento&#8230;</string>
+    <string name="explain_button">Premere <i>Iniziare</i> per visualizzare i
+        percorsi presenti sul server</string>
+    <string name="explain_download">Selezionare un percorso
+        da scaricare</string>
+    <string name="download_complete">Scaricamento completato</string>
+    <string name="download_error">Errore</string>
+    <string name="downloading">Scaricare</string>
+    <string name="no_paths">Nessun percorso trovato</string>
+
+    <!-- LostActivity -->
+    <string name="sms">Mi sono persa.</string>
+    <string name="sms2">Ecco le mie coordinate: </string>
+    <string name="sms_failed">SMS non riuscito, riprova più tardi.</string>
+
+</resources>

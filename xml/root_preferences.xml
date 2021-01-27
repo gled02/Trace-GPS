@@ -1,0 +1,131 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<!-- @author Gledis Shkurti -->
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <ListPreference
+            app:icon="@drawable/ic_action_language"
+            app:dialogTitle="@string/title"
+            app:entries="@array/language"
+            app:entryValues="@array/language"
+            app:key="language"
+            app:title="@string/title" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            app:icon="@drawable/ic_editor_insert_drive_file"
+            app:dialogTitle="@string/text_radio1"
+            app:entries="@array/fileExtention"
+            app:entryValues="@array/fileExtention"
+            app:key="fileExtention"
+            app:title="@string/text_radio1" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            app:icon="@drawable/ic_speed"
+            app:dialogTitle="@string/text_radio2"
+            app:entries="@array/speed"
+            app:entryValues="@array/speed"
+            app:key="speed"
+            app:title="@string/text_radio2" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            app:icon="@drawable/ic_distance"
+            app:dialogTitle="@string/text_radio4"
+            app:entries="@array/distance"
+            app:entryValues="@array/distance"
+            app:key="distance"
+            app:title="@string/text_radio4" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            app:icon="@drawable/ic_time"
+            app:dialogTitle="@string/text_radio3"
+            app:entries="@array/time"
+            app:entryValues="@array/time"
+            app:key="time"
+            app:title="@string/text_radio3" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            app:icon="@drawable/ic_marker"
+            app:dialogTitle="@string/degreeText"
+            app:entries="@array/formatMarkers"
+            app:entryValues="@array/formatMarkers"
+            app:key="formatMarkers"
+            app:title="@string/degreeText" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <EditTextPreference
+            app:icon="@drawable/ic_maps_my_location"
+            app:dialogTitle="@string/nbBalises"
+            app:dialogMessage="@string/t_nbBalises"
+            app:negativeButtonText="@string/dialog_cancel"
+            app:key="nbBalises"
+            app:singleLine="true"
+            app:title="@string/nbBalises" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <EditTextPreference
+            app:icon="@drawable/ic_file_folder_open"
+            app:dialogTitle="@string/path"
+            app:negativeButtonText="@string/dialog_cancel"
+            app:key="path"
+            app:singleLine="true"
+            app:title="@string/path" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <EditTextPreference
+            app:icon="@drawable/ic_maps_map"
+            app:dialogTitle="@string/locationIn"
+            app:dialogMessage="@string/equals0"
+            app:negativeButtonText="@string/dialog_cancel"
+            app:key="locationIn"
+            app:singleLine="true"
+            app:title="@string/locationIn" />
+    </PreferenceCategory>
+   <PreferenceCategory>
+        <EditTextPreference
+            app:icon="@drawable/ic_distance_balise"
+            app:dialogTitle="@string/accurancy"
+            app:dialogMessage="@string/equals02"
+            app:negativeButtonText="@string/dialog_cancel"
+            app:key="accurancy"
+            app:singleLine="true"
+            app:title="@string/accurancy" />
+   </PreferenceCategory>
+   <PreferenceCategory>
+        <EditTextPreference
+            app:icon="@drawable/ic_content_content_paste"
+            app:dialogTitle="@string/accurancy2"
+            app:dialogMessage="@string/equals02"
+            app:negativeButtonText="@string/dialog_cancel"
+            app:key="accurancy2"
+            app:singleLine="true"
+            app:title="@string/accurancy2" />
+   </PreferenceCategory>
+   <PreferenceCategory>
+        <EditTextPreference
+            app:icon="@drawable/ic_content_save"
+            app:dialogTitle="@string/timeBalises"
+            app:dialogMessage="@string/equals03"
+            app:negativeButtonText="@string/dialog_cancel"
+            app:key="timeBalises"
+            app:singleLine="true"
+            app:title="@string/timeBalises" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,53 @@
+Questa è un'applicazione di localizzazione GPS.
+
+I - Presentazione delle funzioni dell'applicazione
+
+    Funziona in tre (3) modi principali:
+
+        - la modalità «Seguito dato da tracces» : questa modalità consente di registrare un percorso.
+             Quando questa modalità è selezionata, apparirà una finestra di dialogo, solo se un record è stato messo in pausa, altrimenti la finestra di dialogo non verrà visualizzata. Questa finestra di dialogo consente di scegliere se riprendere la registrazione o iniziare una nuova registrazione. In quest'ultimo caso, la registrazione in pausa sarà cancellata.
+             In basso a destra vengono visualizzate le informazioni relative alla posizione GPS, cioè latitudine, longitudine, velocità attuale, distanza percorsa e tempo percorso.
+             La posizione del telefono viene salvata regolarmente in un file.
+             È possibile visualizzare il contenuto del file in cui viene effettuata la registrazione premendo il pulsante in basso a sinistra dello schermo.
+             Per interrompere o interrompere la registrazione, è sufficiente premere la freccia di ritorno o premere il pulsante di ritorno del telefono. Di conseguenza, apparirà una finestra di dialogo con entrambe le opzioni.
+             Il file della registrazione si trova sul telefono in questa posizione (predefinita): Android/data/com.example.tracesgps/files/Tracks.
+
+        - la modalità «Percorso Autonomo»: questa modalità consente di seguire un percorso.
+             Quando questa modalità è selezionata, apparirà una finestra per la selezione di un file contenente il percorso.
+          	 In basso a sinistra dello schermo sono visualizzate le informazioni relative alla posizione GPS, cioè latitudine, longitudine, velocità attuale, distanza percorsa e tempo percorso.
+       		 In basso a destra dello schermo vengono visualizzate le informazioni relative al prossimo tag nel percorso, più precisamente la direzione, la distanza e il tempo.
+       		 È possibile in qualsiasi momento uscire dalla modalità premendo la freccia indietro nella barra degli strumenti o il tasto indietro del telefono.
+             Quando hai finito di seguire il percorso, apparirà una finestra di dialogo e potrai visualizzare le tue statistiche. Avrai la possibilità di convalidare il percorso che hai appena fatto, e in questo caso il file di tracciamento verrà inviato al server.
+             Potete vedere i file che si trovano sul server al seguente link: https://tracegps-2020.herokuapp.com/getsuivi?id=* (*numero).
+
+        - la modalità «Percorso Connesso»: questa modalità consente di seguire un percorso report dalla posizione a un server.
+             Quando questa modalità è selezionata, apparirà una finestra di dialogo per richiedere il numero del concorrente.
+             Poi, come per la modalità «Percorso Autonomo», apparirà una finestra per la selezione di un file contenente il percorso.
+             Vengono visualizzate le stesse informazioni sulla posizione GPS e sul prossimo segnaposto del percorso.
+             Non appena la posizione GPS del telefono viene salvata nel file, viene inviata anche al server.
+             Potete seguire la posizione di un concorrente al seguente link: http://tracegps-2020.herokuapp.com/succigps?id=* (* numero del concorrente).
+             Quando il percorso è completato, vengono visualizzate le statistiche.
+
+
+    L'applicazione offre anche altre funzionalità:
+
+        - Mostra una mappa del mondo.
+            La mappa è centrata sulla posizione attuale dell'apareil per impostazione predefinita.
+            È possibile :
+                - ricentrare la mappa nella posizione attuale dell'apareil premendo il pulsante in alto a destra dello schermo.
+                - muovere la carta con un dito sullo schermo.
+                - Ingrandisci e ingrandisci spostando o avvicinando due (2) dita sullo schermo o usando i pulsanti + e - sullo schermo.
+
+        - Visualizzazione di statistiche sui percorsi registrati con la modalità «Tracciamento tracce».
+
+        - Se ti perdi, puoi inviare un SMS, composto dalla tua posizione attuale, dall'app.
+
+        - L'accesso ai parametri relativi alla registrazione di un percorso.
+
+        - Aiuto (questo file).
+
+
+II- Navigazione dell'applicazione
+
+    Il menu principale contiene i pulsanti delle 3 modalità principali, così come i pulsanti per visualizzare le statistiche e le impostazioni.
+    Per navigare il resto delle funzionalità dell'applicazione, è sufficiente fare clic sul pulsante con tre (3) barre orizzontali in alto a sinistra dello schermo, per visualizzare il menu completo.

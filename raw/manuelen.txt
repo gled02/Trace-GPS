@@ -1,0 +1,53 @@
+This is a GPS position tracking app.
+
+I – Overview of application functionalities
+
+	You can use three (3) modes:
+
+		- Mode "Trace Tracking": this mode allows you to record a path.
+			When this mode is selected, a pop-up window is displayed if a previous recording has been put on pause, otherwise there is no pop-up window. This pop-up window lets the user choose whether or not to continue a paused recording or start a new recording. For the last case, the paused recording will be deleted.
+			On the bottom right of the screen is displayed information regarding the GPS position, such as the latitude, the longitude, the current speed, the distance travelled and the time travelled.
+			The phone's position est regularly saved in a file.
+			It is possible to view the contents of the file where the recording is stored, by pressing on the button located on the bottom left of the screen.
+			To stop a recording or to pause a recording, you can either press the arrow on the top left of the screen or press the back button of the device. When doing so, a pop-up window with the two options is displayed.
+			The file for the recording is located on the phone in the folder (by default) : Android/data/com.example.tracesgps/files/Tracks.
+
+		- Mode "Autonomous Path": this mode allows you to follow a path.
+			When this mode is selected, a window is displayed to select the file containing the path.
+			On the bottom left of the screen is displayed information regarding the GPS position, such as the latitude, the longitude, the current speed, the distance travelled and the time travelled.
+			On the bottom right of the screen is displayed information regarding the next marker in the path, more precisely the direction, the distance and the delay.
+			You can at any moment leave this mode by pressing the back arrow that is on the toolbar or the back button on your phone.
+			When you have finished following the path, a pop-up window appears and you will be able to see your statistics. You will then be able to validate the path that you just did, in that case, the trace tracking file will be sent to the server.
+			You can view the files that are on the server with this link: https://tracegps-2020.herokuapp.com/getsuivi?id=* (*number).
+
+		- Mode "Connected Path" : this mode allows you to follow a path with the position being sent to the server.
+			When this path is selected, a pop-up window is displayed to ask the candidate's number.
+			Then, like with the mode "Autonomous Path", a window is displayed to select the file containing the path.
+			The same information, regarding the GPS position and the next marker of the path, is displayed.
+			As soon as the GPS position is recorded in the file, it is also sent to the server.
+			You are able to follow the candidate's position with this link: http://tracegps-2020.herokuapp.com/suivigps?id=* (* candidate's number).
+			When you have finished following the path, the statistics are displayed.
+
+
+	The application also offers other functionalities:
+
+		- Displaying a map of the world.
+			By default the map is centered on the current location of the device.
+			It is possible to:
+				- recenter the map to the current position by pressing the button on the top right of the screen.
+				- move the map by sliding a finger on the screen.
+				- zoom in and out by spreading or closing two (2) fingers on the screen or by using the + and – buttons on the screen.
+
+		- Viewing statistics on the paths recorded with the "Trace Tracking" mode.
+
+		- If you are lost, you are able to send an SMS from the application, containing your current position.
+
+		- Accessing the settings for the recording of a path.
+
+		- Help (this file)
+
+
+II- App navigation
+
+	The main menu contains buttons for each of the three (3) modes, as well as buttons to view the statistics and the settings.
+	To navigate to the rest of the app's functionnalities, you can click on the button with the three (3) horizontal bars located at the top left of the screen, to view the full menu.
